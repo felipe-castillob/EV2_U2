@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario_notas_felipe_castillo_&&_benjamin_gonzalez</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <img src="./assets/img/logo_cft.jpg" alt="logo cft" width="60" height="48">
+      <a class="navbar-brand" href="#">Promedio Notas</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Estudiantes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Actividades</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Material
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Libros</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Tutoriales</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Documentacion</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Ingreso de Notas</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar la Carrera" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+      <div class="text-center">
+        <figure class="">
+          <img src="./assets/img/portada.jpeg" class="" alt="..." width="100%" height=300>
+          <figcaption class="" >Si tienes dudas. Usa nuestro formulario de contacto para realizar las preguntas que necesitas. Recuerda que estamos para ayudarte y ofrecerte una educacion de calidad.</figcaption>
+        </figure>
+      </div>
+
+      <br>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mx-auto">
+            <div class="form-holder">
+                <div class="form-content">
+                    <div class="form-items">
+                        <h3 class="text-center">Formulario Notas</h3>
+                        <form class="requires-validation" novalidate>
+
+                            <div class="col-md-12">
+                               <input class="form-control" type="text" name="nombre" id="nombre" placeholder="Nombre Completo" required>
+                               <div class="valid-feedback">El Nombre es valido</div>
+                               <div class="invalid-feedback">Debe ingresar un dato correcto</div>
+                            </div>
+                            <br>
+                            <div class="col-md-12">
+                                <input class="form-control" type="text" name="asignatura" id="asignatura" placeholder="Asignatura" required>
+                                <div class="valid-feedback">La Asignatura es valida</div>
+                                <div class="invalid-feedback">Debe ingresar un dato correcto</div>
+                            </div>
+                            <br>
+                            <div class="row">
+                              <div class="col-md-3">
+                                <label for=""><h3>Unidad 1</h3></label>
+                                <br>
+                                <input class="form-control" type="text" name="nota1" id="nota1" placeholder="Nota 1" required>
+                                <div class="valid-feedback">Nota 1 valida</div>
+                                <div class="invalid-feedback">Nota 1 invalida</div>
+                                <br>
+                                <input class="form-control" type="text" name="nota2" id="nota2" placeholder="Nota 2" required>
+                                <div class="valid-feedback">Nota 2 valida</div>
+                                <div class="invalid-feedback">Nota 2 invalida</div>
+                              </div>
+                              <div class="col-md-1">
+                                <br>
+                                <br>
+                                <label for=""><h5>12%</h5></label>
+                                <br>
+                                <br>
+                                <label for=""><h5>21%</h5></label>
+                              </div>
+                            <div class="col-md-3">
+                                <label for=""><h3>Unidad 2</h3></label>
+                                <br>
+                                <input class="form-control" type="text" name="nota3" id="nota3" placeholder="Nota 3" required>
+                                <div class="valid-feedback">Nota 3 valida</div>
+                                <div class="invalid-feedback">Nota 3 invalida</div>
+                                <br>
+                                <input class="form-control" type="text" name="nota4" id="nota4" placeholder="Nota 4" required>
+                                <div class="valid-feedback">Nota 4 valida</div>
+                                <div class="invalid-feedback">Nota 4 invalida</div>
+                            </div>
+                              <div class="col-md-1">
+                                <br>
+                                <br>
+                                <label for=""><h5>12%</h5></label>
+                                <br>
+                                <br>
+                                <label for=""><h5>21%</h5></label>
+                            </div>
+                              <div class="col-md-3">
+                                <label for=""><h3>Unidad 3</h3></label>
+                                <br>
+                                <input class="form-control" type="text" name="nota5" id="nota5" placeholder="Nota 5" required>
+                                <div class="valid-feedback">Nota 5 valida</div>
+                                <div class="invalid-feedback">Nota 5 invalida</div>
+                                <br>
+                                <input class="form-control" type="text" name="nota6" id="nota6" placeholder="Nota 6" required>
+                                <div class="valid-feedback">Nota 6 valida</div>
+                                <div class="invalid-feedback">Nota 6 invalida6</div>
+                            </div>
+                              <div class="col-md-1">
+                                <br>
+                                <br>
+                                <label for=""><h5>13%</h5></label>
+                                <br>
+                                <br>
+                                <label for=""><h5>21%</h5></label>
+                            </div>
+                            </div>
+                            <br>
+                            <div class="col-md-12">
+                              <button id="submit" type="submit" class="btn btn-primary form-control">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>

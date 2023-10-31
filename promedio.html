@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <img src="./assets/img/logo_cft.jpg" alt="logo cft" width="60" height="48">
+          <a class="navbar-brand" href="#">Promedio Notas</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Estudiantes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Actividades</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Material
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Libros</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Tutoriales</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Documentacion</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Ingreso de Notas</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar la Carrera" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <table class="table">
+        <thead class="table-dark">
+          <p>Nombre Completo:<span id="nombreResultado"></span></p>
+          <p>Asignatura:<span id="asignaturaResultado"></span></p>  
+        </thead>
+        <tbody>
+            <tr>
+                <td>Unidad 1</td>
+                <th scope="col">Nota 1:</th>
+                <th scope="col"><span id="nota1Resultado"></span></th>
+                <th scope="col">Ponderacion:</th>
+                <th scope="col"><span id="ponderacionNota1"></span></th>
+                <th scope="col">Nota 2:</th>
+                <th scope="col"><span id="nota2Resultado"></span></th>
+                <th scope="col">Ponderacion:</th>
+                <th scope="col"><span id="ponderacionNota2"></span></th>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+              <td>Unidad 2</td>
+              <th scope="col">Nota 3:</th>
+              <th scope="col"><span id="nota3Resultado"></span></th>
+              <th scope="col">Ponderacion:</th>
+              <th scope="col"><span id="ponderacionNota3"></span></th>
+              <th scope="col">Nota 4:</th>
+              <th scope="col"><span id="nota4Resultado"></span></th>
+              <th scope="col">Ponderacion:</th>
+              <th scope="col"><span id="ponderacionNota4"></span></th>
+            </tr>
+        </tbody>
+        <tbody>
+            <td>Unidad 3</td>
+              <th scope="col">Nota 5:</th>
+              <th scope="col"><span id="nota5Resultado"></span></th>
+              <th scope="col">Ponderacion:</th>
+              <th scope="col"><span id="ponderacionNota5"></span></th>
+              <th scope="col">Nota 6:</th>
+              <th scope="col"><span id="nota6Resultado"></span></th>
+              <th scope="col">Ponderacion:</th>
+              <th scope="col"><span id="ponderacionNota6"></span></th>
+        </tbody>
+        <tbody>
+            <tr>
+                <th scope="col">Promedio:</th>
+                <th colspan="10" scope="col"><span id="promedioResultado">60</span></th>
+            </tr>
+        </tbody>
+      </table>
+      <br>
+      <div  class="text-center">
+        <h3 id="estadoAsignatura"></h3>
+      </div>
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/resultados.js"></script>
+</body>
+</html>
